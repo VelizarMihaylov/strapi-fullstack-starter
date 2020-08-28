@@ -1,0 +1,19 @@
+{
+"presets": [
+      [
+        "@babel/env",
+        {
+          "useBuiltIns": "usage",
+          "corejs": 3,
+          "targets": {
+            "browsers": "Last 2 Chrome versions, Firefox ESR, IE 11",
+            "node": "current"
+          }
+        }
+      ],
+      [
+        "@babel/preset-react"
+      ]
+    ],
+"plugins": ["@babel/plugin-proposal-optional-chaining"]
+}

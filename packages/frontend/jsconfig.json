@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": "."
+    },
+    "include": [
+        "components",
+        "pages",
+        "api"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
